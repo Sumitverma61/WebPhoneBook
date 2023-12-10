@@ -5,7 +5,6 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(to right, #4b0082, #9400D3);
     overflow: hidden;
 }
 
@@ -17,7 +16,7 @@ body {
     width: 80%;
     height: 40%;
     padding: 20px;
-    background: linear-gradient(to right, indigo, purple);
+    background: linear-gradient(to right, #6a3093, #a044ff);
     color: white;
     margin-bottom: 20px;
     border-radius: 15px; 
@@ -33,7 +32,7 @@ body {
     width: 50%; 
     height: 20%;
     padding: 20px;
-    background: linear-gradient(to right, indigo, purple);
+    background: linear-gradient(to right, #6a3093, #a044ff);
     color: white;
     margin-bottom: 20px;
     border-radius: 15px;
