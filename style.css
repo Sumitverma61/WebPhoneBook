@@ -15,7 +15,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 40%;
+    height: 41%;
     padding: 20px;
     background: linear-gradient(to right, indigo, purple);
     color: white;
@@ -45,7 +45,7 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     border: none;
-    border-radius: 5px;
+    border-radius: 5.1px;
 }
 
 #dynamicContent button {
