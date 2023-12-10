@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: white;
+    overflow: hidden;
+}
+
+#dynamicContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 40%;
+    padding: 20px;
+    background: linear-gradient(to right, indigo, purple);
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 15px; 
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
+    height: 20%;
+    padding: 20px;
+    background: linear-gradient(to right, indigo, purple);
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    flex-shrink: 0;
+}
+
+#dynamicContent input, #dynamicContent button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#dynamicContent button {
+background-color: indigo;
+color: white;
+cursor: pointer;
+}
+
+#dynamicContent button:hover {
+background-color: purple;
+}
+#dynamicContent input {
+margin-bottom: 10px;
+padding: 10px;
+border: none;
+border-radius: 5px;
+height: 40px;
+font-size: 16px;
+width: 40%;
+}
